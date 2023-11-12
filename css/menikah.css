@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Rouge+Script");
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Rouge+Script|Dancing+Script");
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -17,6 +17,28 @@ html {
 
 .header-wrapper {
   padding-bottom: 30px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding: 10px;
+}
+th {
+  padding: 10px;
+}
+
+.navbar-burger {
+  color: white;
+  cursor: pointer;
+  display: block;
+  height: 3.25rem;
+  position: relative;
+  width: 3.25rem;
+  margin-left: auto;
 }
 
 .navbar-item {
@@ -38,8 +60,8 @@ html {
 
 
 .hero {
-  background-image: url(https://picsum.photos/id/25/1920/1080);
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background-image: url(../image/header_bg.jpeg);
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("../image/header_bg.jpeg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -50,7 +72,7 @@ html {
 
 
 .hero .title {
-  font-family: 'Rouge Script', sans-serif;
+  font-family: 'Dancing Script', sans-serif;
   font-weight: 700;
   transform: rotate(-2deg);
   font-size: 5rem;
@@ -298,7 +320,7 @@ html {
 }
 
 .nama-lengkap {
-  font-family: 'Rouge Script', sans-serif;
+  font-family: 'Dancing Script', sans-serif;
   color: #996E6D;
   font-size: 3.5rem;
   letter-spacing: 0px;
@@ -565,7 +587,7 @@ body.preloader-site {
 
 
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-kang-emil.jpg");
+  background-image: /*linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)),*/ url("../image/alambra.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -574,7 +596,7 @@ body.preloader-site {
 
 
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-cashbac.jpg");
+  background-image: /*linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)),*/ url("../image/cumple_sara.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -582,7 +604,7 @@ body.preloader-site {
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-selfie.jpg");
+  background-image: /*linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)),*/ url("../image/moto_hagrid.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -590,7 +612,7 @@ body.preloader-site {
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-lamaran.jpg");
+  background-image: /*linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)),*/ url("../image/marroc.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -598,7 +620,7 @@ body.preloader-site {
 }
 
 .foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-red-car.jpg");
+  background-image: /*linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)),*/ url("../image/boda_jess.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -607,7 +629,7 @@ body.preloader-site {
 
 
 .foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-engagement-ami.jpg");
+  background-image: /*linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)),*/ url("../image/sherly-daeng-engagement-ami.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -621,7 +643,7 @@ body.preloader-site {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   text-align: left;
-  color: white;
+  color: black;
 }
 
 
@@ -632,7 +654,7 @@ body.preloader-site {
   font-weight: 600;
   margin-top: 15px;
   text-align: left;
-  color: white;
+  color: black;
 }
 
 .section-light {
@@ -651,4 +673,11 @@ body.preloader-site {
   vertical-align: middle;
   text-align: center;
   padding: 10px;
+}
+
+.notification {
+  background-color:#c28285;
+  border-radius:4px;
+  padding:1.25rem 2.5rem 1.25rem 1.5rem;
+  position:relative
 }
