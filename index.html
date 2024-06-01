@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8" />
@@ -9,14 +9,12 @@
   <title>Sara & Roger</title>
 
   <meta property="og:title" content="Invitación Boda Sara y Roger - Sábado, 10 Agosto 2024">
-  <meta property="og:description"
-    content="Has sido invitado a la boda de Sara & Roger, entra para confirmar tu asistencia">
+  <meta property="og:description" content="Has sido invitado a la boda de Sara & Roger, entra para confirmar tu asistencia">
   <meta property="og:locale" content="es_ES" />
   <meta property="og:image" content="https://invitacionbodasararoger.000webhostapp.com/image/header_bg.jpeg">
-  <meta property="og:url" content="https://invitacionbodasararoger.000webhostapp.com/">
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- Bulma Version 0.8.x-->
-  <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+  <meta property="og:url" content="https://invitacionbodasararoger.000webhostapp.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
   <link rel="stylesheet" type="text/css" href="css/menikah.css" />
   <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
@@ -28,18 +26,12 @@
   <link rel="icon" type="image/png" href="image/favicon.png" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23064379-20"></script>
-  <!-- Begin Script for Countdown -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'UA-23064379-20');
   </script>
-  <!-- Begin Script for Countdown -->
-
-  <!-- Github Button -->
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
 <body>
@@ -68,16 +60,25 @@
         <div id="mobile-nav" class="navbar-menu">
           <div class="navbar-end">
             <div class="navbar-item">
-              <a class="navbar-item" href="#Waktu">
+              <a class="navbar-item" href="#menu">
+                Menú
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#music">
+                Añadir música
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#fecha">
                 Fecha
               </a>
             </div>
             <div class="navbar-item">
-              <a class="navbar-item" href="#lokasi">
+              <a class="navbar-item" href="#localizacion">
                 Ubicación
               </a>
             </div>
-
             <div class="navbar-item">
               <a class="navbar-item" href="#tentang-sherly-daeng">
                 Sara y Roger
@@ -93,11 +94,6 @@
                 Donde dormir
               </a>
             </div>
-            <div class="navbar-item">
-              <a class="navbar-item" href="#music">
-                Añadir música
-              </a>
-            </div>
           </div>
         </div>
       </nav>
@@ -108,11 +104,9 @@
           <h1 class="subtitle">Invitación de boda</h1>
           <h2 class="title">Sara & Roger</h2>
           <h4 class="subtitle tempatwaktu">
-
             Sábado, 10 de agosto de 2024
             </br>
             Masia Farré, Lleida
-
           </h4>
         </div>
         <!-- Start Countdown -->
@@ -134,8 +128,7 @@
               <p class="seconds_text">Segundos</p>
             </li>
           </ul>
-          <div class="spasi">
-          </div>
+          <div class="spasi"></div>
           <script type="text/javascript">
             var now = new Date();
             var day = now.getDate();
@@ -146,10 +139,10 @@
             var harih = '8/10/2024 18:30:00';
 
             $('#hitungmundur').countdown({
-              date: harih, // TODO Date format: 07/27/2017 17:00:00
-              offset: +1, // TODO Your Timezone Offset
-              day: 'Dias',
-              days: 'Dias'
+              date: harih,
+              offset: +1,
+              day: 'Día',
+              days: 'Días'
             }, function () {
               alert('Done!');
             });
@@ -159,7 +152,7 @@
       </div>
       <!-- End Hero Content-->
       <!-- Begin Hero Menu -->
-      <div class="hero-foot ">
+      <div class="hero-foot">
         <div class="hero-foot--wrapper">
           <div class="columns">
             <div class="column is-12 hero-menu-desktop has-text-centered">
@@ -168,23 +161,25 @@
                   <a href="#home">Inicio</a>
                 </li>
                 <li>
-                  <a href="#Waktu">Fecha</a>
+                  <a href="#menu">Menú</a>
                 </li>
                 <li>
-                  <a href="#lokasi">Localización</a>
+                  <a href="#music">Añadir música</a>
+                </li>
+                <li>
+                  <a href="#fecha">Fecha</a>
+                </li>
+                <li>
+                  <a href="#localizacion">Localización</a>
                 </li>
                 <li>
                   <a href="#tentang-sherly-daeng">Sara & Roger</a>
                 </li>
-
                 <li>
                   <a href="#rsvp">Confirma tu asistencia</a>
                 </li>
                 <li>
                   <a href="#sleep">Donde dormir</a>
-                </li>
-                <li>
-                  <a href="#music">Añadir música</a>
                 </li>
               </ul>
             </div>
@@ -199,14 +194,11 @@
 
   <!-- Begin Main Content -->
   <div class="main-content">
-    <!-- Begin regular-section-->
-    <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content"
-      id="regular-section">
-
+    <!-- Begin Invitación -->
+    <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
       <div data-aos="fade-up" data-aos-easing="linear">
-        <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+        <img src="image/divider-leaves.png" class="divider has-text-centered" alt="Divisor">
       </div>
-
       <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
         ¡Bienvenidos a nuestra invitación de boda!
         <br>
@@ -219,10 +211,8 @@
         ¡Os esperamos!
         <br>
       </p>
-
       <span class="space40px"></span>
       <span class="space40px"></span>
-
       <div data-aos="fade-up" data-aos-easing="linear">
         <div class="nama-lengkap">
           Sara Pérez Martínez
@@ -231,71 +221,134 @@
         <div class="nama-lengkap">
           Roger Murgó Tarroch
         </div>
-
       </div>
       <span class="space40px"></span>
       <div data-aos="fade-up" data-aos-easing="linear">
-        <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+        <img src="image/divider-leaves.png" class="divider has-text-centered" alt="Divisor">
       </div>
       <span class="space40px"></span>
       <span class="space40px"></span>
     </section>
-    <!-- End regular-section-->
+    <!-- End Invitación-->
 
-    <!-- Begin Waktu Section -->
-    <section class="section-dark" id="Waktu">
+    <!-- Start Menú -->
+
+    <section class="section-dark" id="menu">
       <div class="container">
+        <div class="columns is-multiline">
+          <div class="column has-text-centered is-12 prolog">
+            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Añade tu música</h1>
+            <div class="column prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+              <p class="h2 subtitle">
+                ¡Rellena el formulario con 3 canciones que quieres que suenen durante la fiesta!
+              </p>
+            </div>
+            <div class="space40px"></div>
+            <a href="https://forms.gle/8KTGUcnBUwQKa5Z59" class="button btn-cta" target="_blank" data-aos="zoom-in">
+              <i class="fab fa-google"></i>
+              Formulario
+            </a>
+          </div>
+        </div>
+        <div class="space24px"></div>
+      </div>
+    </section>
 
+    <!-- Start Formulario -->
+    <section class="section-light regular-section is-fullheight" id="music">
+      <div class="container">
+        <div class="column is-12 regular-section has-text-centered has-vertically-aligned-content" data-aos="fade-up" data-aos-easing="linear">
+          <h1 class="title has-text-centered section-title">Menú</h1>
+          <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
+            <strong class="title-foto">APERITIUS</strong>
+            <br><br>
+            <strong class="subtitle-foto">4 ATELIERS</strong><br>
+            Perniler, formatgeria, fideuà marinera, rissoto de ceps i coques de recapte<br>
+            <strong class="subtitle-foto">+</strong><br>
+            <strong class="subtitle-foto">OPEN BAR</strong><br>
+            Cervesa, vermut, refrescs, vi blanc, vi negre, cava i aigua
+            <br><br>
+            <strong class="title-foto">DESFILADA D'APERITIUS</strong>
+            <br><br>
+            <strong class="subtitle-foto">APERITIUS FREDS</strong><br>
+            Rotllet de salmó amb crema de vermouth<br>
+            Delícies de foie amb melmelada de fruites<br>
+            Mossec de bacallà amb escalivada<br>
+            Tartaleta d'hummus<br>
+            Cullereta de guacamole amb marisc<br>
+            Gotet de formatge suau<br>
+            Xarrup de gaspatxo
+            <br><br>
+            <strong class="subtitle-foto">APERITIUS CALENTS</strong><br>
+            Gyoza vegetal amb salsa agridolça<br>
+            Cuixetes de guatlla amb salsa barbacoa<br>
+            Piruleta de gamba cruixent<br>
+            Croquetes de marisc amb formatge parmesà<br>
+            Farcellet de marisc amb salsa marinera<br>
+            Bunyol de calçot
+            <br><br>
+            <strong class="title-foto">BANQUET</strong>
+            <br><br>
+            <strong class="subtitle-foto">SORBET DE MANDARINA AMB PETA ZETAS</strong>
+            <br><br>
+            <strong class="title-foto">PLAT PRINCIPAL</strong><br>
+            SECRET IBÈRIC AMB LLIT DE PATATA I CEBA AMB SALSA D’OPORTO
+            <br><br>
+            <strong class="subtitle-foto">PASTÍS NUPCIAL</strong>
+            <br><br>
+            <strong class="title-foto">CELLER</strong><br>
+            Vi blanc Ànec Mut (D.O Penedès)<br>
+            Vi negre Santes (D.O Montsant)<br>
+            Cava Signat Brut Nature (D.O Cava)
+          </p>
+          <div class="space40px"></div>
+          <div class="space40px"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Begin Fecha -->
+    <section class="section-dark" id="fecha">
+      <div class="container">
         <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
           <h1 class="title has-text-centered section-title">Fecha</h1>
         </div>
         <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
           <div class="column is-4 has-vertically-aligned-content">
-
             <p class="is-larger has-text-centered">
-            <div class="waktu tanggal-hari has-text-centered">Sábado</div>
-            <div class="waktu tanggal-angka has-text-centered">10</div>
-            <div class="waktu tanggal-bulan has-text-centered">Agosto 2024</div>
+              <div class="waktu tanggal-hari has-text-centered">Sábado</div>
+              <div class="waktu tanggal-angka has-text-centered">10</div>
+              <div class="waktu tanggal-bulan has-text-centered">Agosto 2024</div>
             </p>
-
           </div>
           <div class="column is-4 has-vertically-aligned-content">
-
             <p class="waktu is-larger has-text-centered">
               Llegada:
               <br>
               <strong>18:30</strong>
             </p>
-
           </div>
-
           <div class="column is-4 has-vertically-aligned-content">
-
             <h1 class="waktu is-larger has-text-centered">
               Evento:
               <br>
               <strong>19:00 - 3:00</strong>
             </h1>
-
-
           </div>
-
         </div>
       </div>
       <div class="space40px"></div>
       <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
-        <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=N2c3bjI1ZGNobThrbDVkbWxxY2w1YWMwcm8gcm9nZXIubXVyZ29AbQ&tmsrc=roger.murgo%40gmail.com"
-          target="_blank" class="button has-tooltip btn-cta" data-tooltip="Reservar la fecha" target="_blank"
-          data-aos="zoom-in">
+        <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=N2c3bjI1ZGNobThrbDVkbWxxY2w1YWMwcm8gcm9nZXIubXVyZ29AbQ&tmsrc=roger.murgo%40gmail.com" target="_blank" class="button has-tooltip btn-cta" data-tooltip="Reservar la fecha" data-aos="zoom-in">
           <i class="far fa-calendar-plus"></i>
           &nbsp;&nbsp;¡Guárdate la fecha!
         </a>
       </div>
     </section>
-    <!-- End Waktu Content -->
+    <!-- End Fecha Content -->
 
-    <!-- Begin Lokasi Section -->
-    <section class="section-darker" id="lokasi">
+    <!-- Begin Localización -->
+    <section class="section-darker" id="localizacion">
       <div class="container">
         <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
           <h1 class="title has-text-centered section-title">Localización</h1>
@@ -307,7 +360,6 @@
           </p>
         </div>
         <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
-          <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1280267408406!2d106.9691569150978!3d-6.246854895478259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d5988a190d9%3A0x22b6a052b0a6a5f3!2sRM.%20Pondok%20Kenanga!5e0!3m2!1sen!2sid!4v1579433583123!5m2!1sen!2sid" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>-->
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.63938221403!2d0.9888874759995985!3d41.72829987477995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a6919029d6aaab%3A0x6a36d16620cb3d56!2sMasia%20Farr%C3%A9!5e0!3m2!1sen!2sid!4v1698834150908!5m2!1sen!2sid"
             width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -322,50 +374,38 @@
         </div>
       </div>
     </section>
-    <!-- End Lokasi Content -->
+    <!-- End Localización -->
 
-    <!-- Begin Tentang Sherly and Daeng -->
+    <!-- Begin Sara y Roger -->
     <section class="section-light regular-section is-fullheight" id="tentang-sherly-daeng">
       <div class="container">
         <div class="columns is-multiline">
           <div class="column has-text-centered is-12 prolog">
-            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Sara & Roger
-            </h1>
-
-            <!-- IMAGES -->
+            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Sara & Roger</h1>
+            <!-- IMÁGENES -->
             <div class="tile">
               <div class="tile is-ancestor">
                 <div class="tile is-parent">
-                  <article class="tile is-child foto1 notification foto1" data-aos="fade-up" data-aos-easing="linear">
+                  <article class="tile is-child foto1 notification" data-aos="fade-up" data-aos-easing="linear">
                     <div class="content">
                       <p class="title-foto"></p>
-                      <p class="subtitle-foto">
-
-                      </p>
+                      <p class="subtitle-foto"></p>
                     </div>
                   </article>
                 </div>
                 <div class="tile is-parent">
                   <article class="tile is-child notification foto4" data-aos="fade-up" data-aos-easing="linear">
                     <div class="content">
-                      <p class="title-foto">
-
-                      </p>
-                      <p class="subtitle-foto">
-
-                      </p>
+                      <p class="title-foto"></p>
+                      <p class="subtitle-foto"></p>
                     </div>
                   </article>
                 </div>
                 <div class="tile is-parent">
                   <article class="tile is-child notification foto3" data-aos="fade-up" data-aos-easing="linear">
                     <div class="content">
-                      <p class="title-foto">
-
-                      </p>
-                      <p class="subtitle-foto">
-
-                      </p>
+                      <p class="title-foto"></p>
+                      <p class="subtitle-foto"></p>
                     </div>
                   </article>
                 </div>
@@ -390,65 +430,60 @@
                 </article>
               </div>
             </div>
-            <!-- IMAGES -->
+            <!-- IMÁGENES -->
             <div class="space40px"></div>
             <div data-aos="fade-up" data-aos-easing="linear">
-              <img src="image/divider-leaves.png" class="divider has-vertically-align" alt="~~~">
+              <img src="image/divider-leaves.png" class="divider has-vertically-align" alt="Divisor">
             </div>
             <div class="space40px"></div>
             <div class="space40px"></div>
-
           </div>
         </div>
+      </div>
     </section>
-    <!-- End Tentang Sherly dan Daeng -->
+    <!-- End Sara y Roger -->
 
     <!-- Begin RSVP Content -->
     <section class="section-dark contact" id="rsvp">
       <div class="container">
         <div class="columns is-multiline">
           <div class="column is-12 prolog">
-            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Confirma tu
-              asistencia</h1>
+            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Confirma tu asistencia</h1>
           </div>
           <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
             <p class="h2 subtitle">
               Por favor, confirmanos tu asistencia, tanto si puedes venir como si no!
               <br>
               Puedes confirmar a través de WhatsApp. Muchas gracias. 👍
-
             </p>
 
             <a href="https://api.whatsapp.com/send?phone=616082328&text=%C2%A1Hola%21%20Soy%20%2A%5BTu%20Nombre%5D%2A%2C%20estar%C3%A9%20presente%20en%20la%20boda.%20Me%20acompa%C3%B1ar%C3%A1n%20%2A%5BNombre%20de%20tus%20acompa%C3%B1antes%5D%2A%0ANuestros%20men%C3%BAs%20ser%C3%A1n%3A%20%2A%5BNormal%2FVegano%2FInfantil%5D%2A%0AQuer%C3%ADa%20informaros%20que%20%2A%5BNombre%5D%2A%20tiene%20algunas%20alergias%20a%20tener%20en%20cuenta%0A%E2%80%8B&source=&data="
               class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
               <i class="fab fa-whatsapp"></i>
-              &nbsp;&nbsp; Sara
+              Sara
             </a>
 
             <a href="https://api.whatsapp.com/send?phone=636306690&text=Hola%21%20S%C3%B3c%20%2A%5BEl%20teu%20Nom%5D%2A%2C%20estar%C3%A9%20present%20al%20vostre%20casament.%20M%27acompanyaran%20%2A%5BNom%20dels%20teus%20acompanyants%5D%2A%0AEls%20nostres%20men%C3%BAs%20seran%3A%20%2A%5BNormal%2FVeg%C3%A0%2FInfantil%5D%2A%20%0AVolia%20informar-los%20que%20%2A%5BNom%5D%2A%20t%C3%A9%20algunes%20al%C2%B7l%C3%A8rgies%20a%20tenir%20en%20compte&source=&data="
               class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
               <i class="fab fa-whatsapp"></i>
-              &nbsp;&nbsp; Roger
+              Roger
             </a>
-
             <div class="space40px"></div>
             <div data-aos="fade-up" data-aos-easing="linear">
-              <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+              <img src="image/divider-leaves.png" class="divider has-text-centered" alt="Divisor">
             </div>
             <div class="space40px"></div>
-
           </div>
-
         </div>
       </div>
     </section>
     <!-- End RSVP Content -->
+
     <section class="section-darker" id="sleep">
       <div class="container">
         <div class="columns is-multiline">
           <div class="column is-12 prolog">
-            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Donde dormir
-            </h1>
+            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Donde dormir</h1>
             <div class="column prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
               <p class="h2 subtitle">
                 Si no eres de Lleida y quieres quedarte a dormir por la zona
@@ -459,8 +494,7 @@
               </p>
             </div>
             <div class="space40px"></div>
-            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Hoteles
-            </h1>
+            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Hoteles</h1>
             <!-- HOTELES -->
             <div class="tile">
               <div class="tile is-ancestor">
@@ -566,8 +600,7 @@
               </div>
             </div>
             <div class="space24px"></div>
-            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Casas Rurales
-            </h1>
+            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Casas Rurales</h1>
             <!-- CASAS RURALES -->
             <div class="tile">
               <div class="tile is-ancestor">
@@ -742,33 +775,13 @@
         </div>
       </div>
     </section>
-
-    <section class="section-light regular-section is-fullheight" id="music">
-      <div class="container">
-        <div class="columns is-multiline">
-          <div class="column has-text-centered is-12 prolog">
-            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Añade tu música</h1>
-            <div class="column prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
-              <p class="h2 subtitle">
-                !Rellena el formulario con 3 canciones que quieres que suenen durante la fiesta!
-              </p>
-            </div>
-            <a href="https://forms.gle/8KTGUcnBUwQKa5Z59" class="button btn-cta" target="_blank" data-aos="zoom-in">
-              <i class="fab fa-google"></i>
-              &nbsp;&nbsp; Formulario
-            </a>
-          </div>
-        </div>
-        <div class="space24px"></div>
-
-    </section>
   </div>
   <!-- End Main Content -->
 
   <!-- Begin Footer -->
   <div class="footer">
     <div class="container">
-
+      <!-- Aquí puedes agregar contenido del pie de página -->
     </div>
   </div>
   <!-- End Footer -->
